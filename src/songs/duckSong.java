@@ -28,7 +28,7 @@ public class duckSong {
             System.out.println("Over the hill and far away");
             System.out.println("Mother duck said, 'Quack quack quack quack'");
 
-            if (ducks > 1) {
+            if (ducks > 2) {
                 if ( i > 1 ) {
                     if ( (i-1) == 1) {
                         word = "duck";
@@ -39,7 +39,11 @@ public class duckSong {
                 {
                     System.out.println("And all her "+ducks +" little ducks came back!");
                 }
-            } else {
+            }
+            if (ducks == 2){
+                System.out.println("And both her ducks came back!");
+            }
+            if (ducks == 1){
                 System.out.println("And her lonely little duck came back!");
             }
 
